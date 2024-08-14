@@ -10,15 +10,15 @@ We have several repos within the ZK Email ecosystem. Developers can use these to
 
 [ZK Email SDK](zk-email-sdk/): Use this to build a new kind of ZK Email proofs out of the box with 8 lines of JSON, and automatically have proof infrastructure deployed for you. We recommend this for all developers new to ZK Email.
 
-[ZK Email Verifier](https://github.com/zkemail/zk-email-verify): Build custom circuits, smart contracts, and frontend utils. This SDK will likely require ZK knowledge to be able to use, and gives more customizability than the [ZK Email SDK](zk-email-sdk/).
+[ZK Email Verifier](zk-email-verifier/): Build custom circuits, smart contracts, and frontend utils. This SDK will likely require ZK knowledge to be able to use, and gives more customizability than the [ZK Email SDK](zk-email-sdk/).
 
-[Email Wallet](https://github.com/zkemail/email-wallet): A smart contract wallet controlled by your email. You can understand [how to hit the API](email-wallet/api-documentation.md) from a frontend easily, [run your own relayer](email-wallet/relayer-infrastructure.md) if you like, or [define your own extensions](email-wallet/email-wallet-extensions-sdk.md) to add functionality.
+[Email Wallet](email-wallet/): A smart contract wallet controlled by your email. You can understand [how to hit the API](email-wallet/api-documentation.md) from a frontend easily, [run your own relayer](email-wallet/relayer-infrastructure.md) if you like, or [define your own extensions](email-wallet/email-wallet-extensions-sdk.md) to add functionality.
 
 [Account Recovery](account-recovery/relayer-api.md): Explains the interfaces to call account recovery functions from a frontend API, and explains the smart contract architecture for wallets to customize. Used toenable and trigger recovery on any Safe or 7579-compatible wallet.
 
 [Oauth Login](login-with-zk-email-oauth-api.md):  Explains how to hit our APIs from a frontend to be able to login via emails with ZK Email, and optionally request scopes like temporary access to assets.
 
-[ZK Regex](https://github.com/zkemail/zk-regex): A library to do regex verification in circom. The zk-regex CLI takes in a regex and outputs a ZK circuit.
+[ZK Regex](zk-regex.md): A library to do regex verification in circom. The zk-regex CLI takes in a regex and outputs a ZK circuit.
 
 ## Projects that use ZK Email
 
