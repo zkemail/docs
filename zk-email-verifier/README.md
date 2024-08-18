@@ -69,6 +69,4 @@ Circom Workshop 2: [https://learn.0xparc.org/materials/circom/learning-group-1/c
 
 [https://stealthdrop.xyz/](https://stealthdrop.xyz/) + [https://github.com/stealthdrop/stealthdrop](https://github.com/stealthdrop/stealthdrop)
 
-[https://github.com/0xPARC/cabal](https://github.com/0xPARC/cabal)
-
-[https://github.com/personaelabs/heyanon/](https://github.com/personaelabs/heyanon/)Everything we write is MIT licensed. Note that circom and circomlib is GPL. Broadly we are pro permissive open source usage with attribution! We hope that those who derive profit from this, contribute that money altruistically back to this technology and open source public good.
+Everything we write is MIT licensed. Note that circom and circomlib is GPL. Broadly we are pro permissive open source usage with attribution! We hope that those who derive profit from this, contribute that money altruistically back to this technology and open source public good.

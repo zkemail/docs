@@ -1,5 +1,7 @@
 # Novel Concepts
 
+You can watch a video that explains these more at [our 2024 EthCC talk](https://ethcc.io/archive/ZK-Email-Decentralized-Email-Login-Account-Recovery-2FA).
+
 #### Account Code and Salt
 
 An account code is a random integer in a finite scalar field of BN254 curve. It is a private randomness to derive a CREATE2 salt of the user’s Ethereum address from the email address, i.e., `userEtherAddr := CREATE2(hash(userEmailAddr, accountCode))`. That CREATE2 salt is called account salt, which is published on-chain. **As long as the account code is hidden, no adversary can learn the user's email address from on-chain data.**
@@ -12,7 +14,7 @@ Notably, the email-auth message, which represents data in the user's email along
 
 #### Subject Template
 
-A subject template defines the expected format of the message in the Subject for each application. **It allows developers to constrain that message to be in the application-specific format without new ZKP circuits.**
+A subject template defines the expected format of the message in the Subject for each application. **It allows developers to constrain that message to be in the application-specific format without new ZKP circuits.** Our Ether Email Auth package defines a universal circuit that is controlled by these subject templates.
 
 Specifically, the subject template is an array of strings, each of which has some fixed strings without space and the following variable parts:
 
