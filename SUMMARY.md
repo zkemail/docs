@@ -18,6 +18,7 @@
   * [Contract Architecture](email-wallet/contract-architecture.md)
   * [Relayer Infrastructure](email-wallet/relayer-infrastructure.md)
   * [Email Wallet Extensions SDK](email-wallet/email-wallet-extensions-sdk.md)
+  * [Deployed Contract Addresses](email-wallet/deployed-contract-addresses.md)
 * [Account Recovery](account-recovery/README.md)
   * [Novel Concepts](account-recovery/novel-concepts/README.md)
     * [Email-Controlled Smart Contracts (Ether Email Auth)](account-recovery/novel-concepts/email-controlled-smart-contracts-ether-email-auth.md)
