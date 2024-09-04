@@ -4,11 +4,11 @@
 
 ### Overview
 
-The [ZK Email Oauth](https://github.com/zkemail/email-wallet/tree/feat/oauth-mvp/packages/ts-sdk) SDK provides a set of functionalities to interact with a decentralized, email-based OAuth-based authentication system. It allows users to perform OAuth sign-in and sign-up operations for natural usernames via an email, and broadcast transactions on-chain via an ephemeral key for that browser session.
+The [ZK Email Oauth SDK](https://www.npmjs.com/package/@zk-email/oauth-sdk) provides a set of functionalities to interact with a decentralized, email-based OAuth-based authentication system. It allows users to perform OAuth sign-in and sign-up operations for natural usernames via an email, and broadcast transactions on-chain via an ephemeral key for that browser session.
 
 Unlike Email Wallet, the Oauth SDK only asks for one one email reply at the start of each user login in order to login on that device, and then you can execute all further transcations in the background via the ephemeral key.
 
-You can see example [frontend code here](https://github.com/zkemail/oauth-demo-ui) for more specific implementation details, and the deployed version[ here](https://oauth.emailwallet.org/).
+You can see example [frontend code here](https://github.com/zkemail/oauth-demo-ui) for more specific implementation details, and the deployed version [here](https://oauth.emailwallet.org/).
 
 ### Installation
 
