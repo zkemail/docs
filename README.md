@@ -14,7 +14,7 @@ We have several repos within the ZK Email ecosystem. Developers can use these to
 
 [Email Wallet](email-wallet/): A smart contract wallet controlled by your email. You can understand [how to hit the API](email-wallet/api-documentation.md) from a frontend easily, [run your own relayer](email-wallet/relayer-infrastructure.md) if you like, or [define your own extensions](email-wallet/email-wallet-extensions-sdk.md) to add functionality.
 
-[Account Recovery](account-recovery/relayer-api.md): Explains the interfaces to call account recovery functions from a frontend API, and explains the smart contract architecture for wallets to customize. Used to enable and trigger recovery on any Safe or 7579-compatible wallet. Defines [Ether Email Auth](account-recovery/novel-concepts/email-controlled-smart-contracts-ether-email-auth.md), which lets anyone write smart contracts that are triggered by emails.
+[Account Recovery](account-recovery/relayer-api.md): Explains the interfaces to call account recovery functions from a frontend API, and explains the smart contract architecture for wallets to customize. Used to enable and trigger recovery on any Safe or 7579-compatible wallet. Defines [Ether Email Auth](account-recovery/email-controlled-smart-contracts-ether-email-auth.md), which lets anyone write smart contracts that are triggered by emails.
 
 [Oauth Login](login-with-zk-email-oauth-api.md):  Explains how to hit our APIs from a frontend to be able to login via emails with ZK Email, and optionally request scopes like temporary access to assets.
 
