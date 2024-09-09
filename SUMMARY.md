@@ -27,6 +27,7 @@
   * [Relayer API](account-recovery/relayer-api.md)
   * [Deployed Contracts](account-recovery/deployed-contracts.md)
 * [Login with ZK Email: OAuth API](login-with-zk-email-oauth-api.md)
+* [Audits](audits.md)
 * [ZK-Regex](zk-regex.md)
 * [Frequently Asked Questions](frequently-asked-questions.md)
 * [Contributing](contributing.md)
