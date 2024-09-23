@@ -1,24 +1,35 @@
+---
+description: >-
+  We have audited all of the code used in any zk-email mainnet deployments
+  (zkp2p, email recovery). Contact us on t.me/zkemail if you are using any code
+  that is not covered in these audits.
+---
+
 # Audits
+
+### 2024 zk-regex and zksync update by Matter Labs
+
+We are currently completing an audit of our zk-regex rewrite and our Solidity zksync deployments. Expected end date is October.
 
 ### 2024 Ether Email Auth Audit by Zellic
 
-We are completing an audit of our Ether Email Auth library in September 2024.
+We completed an audit with Zellic of our Ether Email Auth library in September 2024.
 
-Fixes are currently in [PR #37](https://github.com/zkemail/ether-email-auth/pull/37) on ether-email-auth
+Fixes are currently in [PR #37](https://github.com/zkemail/ether-email-auth/pull/37) on ether-email-auth.
 
-
+{% file src=".gitbook/assets/ZK Email - Zellic Audit Report.pdf" %}
 
 ### 2024 Account Recovery Smart Contract Audit by Ackee
 
 We completed an audit of our smart contracts for Account Recovery in July 2024.&#x20;
 
-Fixes committed at [482d295](https://github.com/zkemail/email-recovery/pull/22) on [email-recovery](https://github.com/zkemail/email-recovery/)
+Fixes committed at [482d295](https://github.com/zkemail/email-recovery/pull/22) on [email-recovery](https://github.com/zkemail/email-recovery/).
 
 {% file src=".gitbook/assets/ackee-blockchain-zkemail-email-recovery-report.pdf" %}
 
 ### 2024 Audit by zksecurity
 
-We completed a second audit in May 2024 of all of our ZK circuits, including our latest ZK regex rewrite. The audit deemed that EmailVerifier was safe, but people using sub-components in custom circuits may require extra changes and validations. We have fixed all of the high/medium issues, and you can see the full report here and use the fixed circuits via using version 6.1.1 from npm.
+We completed a second audit in May 2024 of [all of our ZK circuits](https://github.com/zkemail/zk-email-verify), including our latest ZK regex rewrite. The audit deemed that EmailVerifier was safe, but people using sub-components in custom circuits may require extra changes and validations. We have fixed all of the high/medium issues, and you can see the full report here and use the fixed circuits via using version 6.1.1 from npm.
 
 Fixes committed at [95cd90](https://github.com/zkemail/zk-email-verify/commit/95cd90) for zk-email-verify
 
@@ -28,7 +39,7 @@ Fixes committed at [5396ec](https://github.com/zkemail/zk-regex/commit/5396ec) f
 
 ### 2023 Audit by Y Academy
 
-We completed our first audit on our circom helper templates. Below, you'll find a detailed PDF report of the findings. We've addressed each issue raised in the audit and have listed the corresponding PRs below for you to see the fixes in detail.
+We completed our first audit on the [circom dependencies and helper templates](https://github.com/zkemail/zk-email-verify) in zk-email-verify. Below, you'll find a detailed PDF report of the findings. We've addressed each issue raised in the audit and have listed the corresponding PRs with each fix.
 
 * Missing constraint for illegal characters: [PR#103](https://github.com/zkemail/zk-email-verify/pull/103)&#x20;
 * Incorrect use of division operation: [PR#104](https://github.com/zkemail/zk-email-verify/pull/104/commits/531f9c2b811cc06a935cb80a17311d28e3662871)
