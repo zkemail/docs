@@ -9,13 +9,13 @@ description: >-
 
 ### 2024 zk-regex and zksync update by Matter Labs
 
-We are currently completing an audit of our zk-regex rewrite and our Solidity zksync deployments. Expected end date is October.
+We are currently completing an audit of our zk-regex rewrite and our Solidity zksync deployments. Expected end date is mid October.
 
 ### 2024 Ether Email Auth Audit by Zellic
 
 We completed an audit with Zellic of our Ether Email Auth library in September 2024.
 
-Fixes are currently in [PR #37](https://github.com/zkemail/ether-email-auth/pull/37) on ether-email-auth.
+Fixes are merged on commit [38d9a4](https://github.com/zkemail/ether-email-auth/commit/38d9a4b96b75ce436157c31732bb759d3029f886) on ether-email-auth.
 
 {% file src=".gitbook/assets/ZK Email - Zellic Audit Report.pdf" %}
 
