@@ -48,7 +48,3 @@ The account recovery process involves four main steps:
 8. **Completion**: Once the recovery is executed on the 7579 Account, the process is complete, and the user regains access to their account.
 
 This architecture ensures a modular, secure, and privacy-preserving account recovery process. It combines off-chain components for user interaction and data preparation with on-chain contracts for trustless and verifiable execution, providing a flexible recovery solution for modern Ethereum wallets.
-
-***
-
-Account recovery allows you to use email addresses to recover Ethereum smart wallets. It uses ZK Email under the hood to verify the email replies and trigger account recovery. We provide several tools, including the [Ether Email-Auth](https://github.com/zkemail/ether-email-auth/tree/feat/docs-updates) SDK that lets you define any new email-triggered smart contracts directly via Solidity, and our audited Account Recovery [7579](https://erc7579.com/)-compatible module for generic smart wallets.
