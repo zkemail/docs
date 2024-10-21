@@ -32,6 +32,9 @@ include "@zk-email/circuits/email-verifier.circom";
     * `n`: Number of bits per chunk the RSA key is split into. Recommended to be 121.
     * `k`: Number of chunks the RSA key is split into. Recommended to be 17.
     * `ignoreBodyHashCheck`: Set 1 to skip body hash check in case data to prove/extract is only in the headers.
+    * `enableHeaderMasking`: Set to 1 to enable masking of the email header.
+    * `enableBodyMasking`: Set to 1 to enable masking of the email body.
+    * `removeSoftLineBreaks`: Set to 1 to remove soft line breaks from the email body (`=\r`).
 
     `Note`: We use these values for n and k because their product (n \* k) needs to be more than 2048 (RSA constraint) and n has to be less than half of 255 to fit in a circom signal.
 *   **Input Signals**:
@@ -45,12 +48,32 @@ include "@zk-email/circuits/email-verifier.circom";
     * `bodyHashIndex`: Index of the body hash `bh` in the `emailHeader`.
     * `precomputedSHA[32]`: Precomputed SHA-256 hash of the email body till the bodyHashIndex.
 
-    **Output Signal**
+    If `removeSoftLineBreaks` is enabled:
+
+    * `decodedEmailBodyIn[maxBodyLength]`: The email body with soft line breaks removed, provided as input for validation.
+
+    If `enableHeaderMasking` is enabled:
+
+    * `headerMask[maxHeadersLength]`: A mask array for the email header, where each element is `1` (reveal) or `0` (hide).
+
+    If `enableBodyMasking` is enabled:
+
+    * `bodyMask[maxBodyLength]`: A mask array for the email body, where each element is `1` (reveal) or `0` (hide).
+*   **Output Signals**:
 
     * `pubkeyHash`: Poseidon hash of the pubkey - Poseidon(n/2)(n/2 chunks of pubkey with k\*2 bits per chunk).
 
-\
+    If `removeSoftLineBreaks` is enabled:
 
+    * `decodedEmailBodyOut[maxBodyLength]`: The decoded email body with soft line breaks removed.
+
+    If `enableHeaderMasking` is enabled:
+
+    * `maskedHeader[maxHeadersLength]`: The masked email header after applying the `headerMask`.
+
+    If `enableBodyMasking` is enabled:
+
+    * `maskedBody[maxBodyLength]`: The masked email body after applying the `bodyMask`.
 
 ### **Libraries**
 
