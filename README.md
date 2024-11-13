@@ -16,7 +16,7 @@ We have several repos within the ZK Email ecosystem. Developers can use these to
 
 [Account Recovery](account-recovery/relayer-api.md): Explains the interfaces to call account recovery functions from a frontend API, and explains the smart contract architecture for wallets to customize. Used to enable and trigger recovery on any Safe or 7579-compatible wallet. Defines [Ether Email Auth](account-recovery/email-controlled-smart-contracts-ether-email-auth.md), which lets anyone write smart contracts that are triggered by emails.
 
-[Oauth Login](login-with-zk-email-oauth-api.md):  Explains how to hit our APIs from a frontend to be able to login via emails with ZK Email, and optionally request scopes like temporary access to assets.
+[Oauth Login](login-with-zk-email-oauth-api/):  Explains how to hit our APIs from a frontend to be able to login via emails with ZK Email, and optionally request scopes like temporary access to assets.
 
 [ZK Regex](zk-regex.md): A library to do regex verification in circom. The zk-regex CLI takes in a regex and outputs a ZK circuit.
 
