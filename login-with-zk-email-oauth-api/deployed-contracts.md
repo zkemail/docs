@@ -1,5 +1,5 @@
 ---
-description: You can use these contract address with OAuth API
+description: You can use these contract addresses with OAuth API
 ---
 
 # Deployed Contracts
