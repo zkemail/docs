@@ -1,5 +1,7 @@
 # Deployed Contracts
 
+ZK EMAIL DOCS HAVE MOVED TO [docs.zk.email](https://docs.zk.email). THE FOLLOWING DOCS ARE OUTDATED.
+
 These are the Base Sepolia + Sepolia addresses. The repo is compatible with zkSync as well, but we are waiting on our audit to deploy our ZK Sync addresses.
 
 | Contract name                 | Base                                       | Base Sepolia                                                                                                                                                             | Sepolia                                    | ZKsync Era                                 |

@@ -6,6 +6,8 @@ description: >-
 
 # Relayer Infrastructure
 
+### ZK EMAIL DOCS HAVE MOVED TO [docs.zk.email](https://docs.zk.email). THE FOLLOWING DOCS ARE OUTDATED.
+
 ### Overview
 
 The Relayer, a crucial system component, bridges email communication and blockchain transactions, ensuring secure information processing.

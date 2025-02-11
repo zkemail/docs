@@ -1,5 +1,7 @@
 # zk-email/contracts
 
+### ZK EMAIL DOCS HAVE MOVED TO [docs.zk.email](https://docs.zk.email/zk-email-verifier/packages/zk-email-contracts). THE FOLLOWING DOCS ARE OUTDATED.
+
 ### DKIMRegistry.sol
 
 `DKIMRegistry.sol` is a Solidity contract within the `@zk-email/contracts` package, functioning as a registry for storing hashes of DKIM public keys associated with particular domains.

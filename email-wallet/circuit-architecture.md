@@ -4,6 +4,8 @@ description: Circom templates that are used in Email Wallet
 
 # Circuit Architecture
 
+ZK EMAIL DOCS HAVE MOVED TO [docs.zk.email](https://docs.zk.email). THE FOLLOWING DOCS ARE OUTDATED.
+
 We provide five main circuits as follows.
 
 **`account_creation.circom`**

@@ -1,5 +1,7 @@
 # Email-Controlled Smart Contracts (Ether Email Auth)
 
+ZK EMAIL DOCS HAVE MOVED TO [docs.zk.email](https://docs.zk.email). THE FOLLOWING DOCS ARE OUTDATED.
+
 You can define arbitrary logic to control smart contracts via emails in Solidity via the Ether Email Auth SDK, that doesn't require any zk circuit engineering. If you want to define your own account recovery logic or define custom email-triggered smart contract logic outside of account recovery, we recommend using this Ether-Email-Auth package.
 
 ## [Ether Email-Auth](https://github.com/zkemail/ether-email-auth/tree/feat/docs-updates) SDK
@@ -26,5 +28,5 @@ In addition to a user and a smart contract employing our SDK, there is a permiss
 4. (On-chain) After verifying the given email-auth message, the contract executes application-specific logic depending on the message in the Subject and the user's Ethereum address.
 5. (On-chain -> Off-chain) The Relayer sends the user an email to report the execution result of the contract.
 
-<figure><img src="../../.gitbook/assets/architecture-flow.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/architecture-flow.png" alt=""><figcaption></figcaption></figure>
 

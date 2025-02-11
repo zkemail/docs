@@ -7,6 +7,8 @@ description: >-
 
 # Audits
 
+### ZK EMAIL DOCS HAVE MOVED TO [docs.zk.email](https://docs.zk.email). THE FOLLOWING DOCS ARE OUTDATED.
+
 ### 2024 zk-regex and zksync update by Matter Labs
 
 We are currently completing an audit of our zk-regex rewrite and our Solidity zksync deployments. Expected end date is mid October.

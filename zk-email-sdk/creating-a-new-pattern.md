@@ -1,5 +1,7 @@
 # Creating a New Pattern
 
+ZK EMAIL DOCS HAVE MOVED TO [docs.zk.email](https://docs.zk.email). THE FOLLOWING DOCS ARE OUTDATED.
+
 A pattern is a customizable template that guides the system in how to handle and process email data. A pattern specifies:
 
 * What information you want to extract from an email.
@@ -216,7 +218,7 @@ If you are using the legacy compiler, then don't check this box to use the V1 fo
 
 When using V1 of the SDK, you need to provide:
 
-1. **Regex**: The full regex pattern used to extract the values. Note that the vast majority of regex syntax is not supported in the V1 compiler, only [the grammar rules mentioned here](https://zkregex.com/min\_dfa). Example: `email: ([a-zA-Z0-9]|@|\.)+`
+1. **Regex**: The full regex pattern used to extract the values. Note that the vast majority of regex syntax is not supported in the V1 compiler, only [the grammar rules mentioned here](https://zkregex.com/min_dfa). Example: `email: ([a-zA-Z0-9]|@|\.)+`
 2. **Prefix Regex**: The regex pattern that can match the characters right before the field you are interested in. \
    \
    Example: Given the string "email: [test@zkemail.com](mailto:test@zkemail.com)", the prefix regex would be `email:` (with a space at the end).

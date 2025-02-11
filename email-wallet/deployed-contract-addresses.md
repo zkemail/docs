@@ -1,5 +1,7 @@
 # Deployed Contract Addresses
 
+ZK EMAIL DOCS HAVE MOVED TO [docs.zk.email](https://docs.zk.email). THE FOLLOWING DOCS ARE OUTDATED.
+
 Our Email Wallet contracts are currently deployed on Base Sepolia. We have deployed these contracts historically on Arbitrum Mainnet (for a 2 week trial in Istanbul, now deprecated), and Goerli (our intitial testing, now deprecated).
 
 

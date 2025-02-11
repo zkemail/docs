@@ -1,5 +1,7 @@
 # Installation
 
+ZK EMAIL DOCS HAVE MOVED TO [docs.zk.email](https://docs.zk.email). THE FOLLOWING DOCS ARE OUTDATED.
+
 To get started with zk-email, install these three npm packages:
 
 ### **1. @zk-email/helpers**

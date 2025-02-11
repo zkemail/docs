@@ -1,5 +1,7 @@
 # Package Components
 
+ZK EMAIL DOCS HAVE MOVED TO [docs.zk.email](https://docs.zk.email). THE FOLLOWING DOCS ARE OUTDATED.
+
 There are four significant packages in this repo:
 
 #### `circuits` Package

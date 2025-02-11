@@ -7,6 +7,8 @@ description: >-
 
 # Contributing
 
+## ZK EMAIL DOCS HAVE MOVED TO [docs.zk.email](https://docs.zk.email). THE FOLLOWING DOCS ARE OUTDATED.
+
 ## Guidelines for Contributing&#x20;
 
 1. **Check for Existing Work:** Before starting on an issue, please ensure that it is not already being addressed by someone else. This helps avoid duplicate efforts.

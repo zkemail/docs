@@ -1,5 +1,7 @@
 # Novel Concepts
 
+ZK EMAIL DOCS HAVE MOVED TO [docs.zk.email](https://docs.zk.email). THE FOLLOWING DOCS ARE OUTDATED.
+
 You can watch a video that explains these more at [our 2024 EthCC talk](https://ethcc.io/archive/ZK-Email-Decentralized-Email-Login-Account-Recovery-2FA).
 
 #### Account Code and Salt

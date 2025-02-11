@@ -1,8 +1,6 @@
-# ZK Email Documentation Hub
+# ZK Email Docs (Old)
 
-![Prove Email Logo](.gitbook/assets/ProveEmailLogo.png)
-
-Welcome to the ZK Email Documentation Hub, the central repository for comprehensive documentation on the ZK Email project suite. This hub serves as your one-stop guide to understanding and implementing our email verification solutions powered by zero-knowledge proof technology.
+ZK EMAIL DOCS HAVE MOVED TO [docs.zk.email](https://docs.zk.email). THE FOLLOWING DOCS ARE OUTDATED.
 
 ## ZK Email Project Repos
 

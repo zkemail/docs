@@ -7,6 +7,8 @@ description: >-
 
 # zk-email/circuits
 
+### ZK EMAIL DOCS HAVE MOVED TO [docs.zk.email](https://docs.zk.email). THE FOLLOWING DOCS ARE OUTDATED.
+
 ### Installation
 
 ```

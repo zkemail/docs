@@ -1,5 +1,7 @@
 # ZK-Email-Verifier
 
+ZK EMAIL DOCS HAVE MOVED TO [docs.zk.email](https://docs.zk.email). THE FOLLOWING DOCS ARE OUTDATED.
+
 ZK Email is a library that allows for anonymous verification of email signatures while masking specific data. It enables verification of emails to/from specific domains or subsets of domains, as well as verification based on specific text in the email body. This technology can be used for web2 interoperability, decentralized anonymous KYC, or to create interesting on-chain anonymity sets.
 
 You can use this set of SDKs to build new proof infrastructure from scratch. We recommend using the [ZK Email SDK](../zk-email-sdk/) for new users who just want to test new types of proofs easily, and users to switch to zk-email-verifier if/when they want more customizability.
@@ -47,7 +49,7 @@ It is recommended to go through this guide to understand how to effectively use 
 
 Github Repo for double-blind: [https://github.com/doubleblind-xyz/double-blind](https://github.com/doubleblind-xyz/double-blind)
 
-RSA: [https://en.wikipedia.org/wiki/RSA\_(cryptosystem)](https://en.wikipedia.org/wiki/RSA\_\(cryptosystem\))
+RSA: [https://en.wikipedia.org/wiki/RSA\_(cryptosystem)](https://en.wikipedia.org/wiki/RSA_\(cryptosystem\))
 
 Talk: [https://www.youtube.com/watch?v=sPCHiUT3TmA](https://www.youtube.com/watch?v=sPCHiUT3TmA)
 

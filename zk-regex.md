@@ -6,6 +6,8 @@ description: >-
 
 # ZK-Regex
 
+ZK EMAIL DOCS HAVE MOVED TO [docs.zk.email](https://docs.zk.email). THE FOLLOWING DOCS ARE OUTDATED.
+
 To understand the theory behind the regex circuit compiler, read our [blog post](https://prove.email/blog/zkregex).
 
 ### Introduction
@@ -15,7 +17,7 @@ This library provides circom circuits that enables you to prove that
 * the input string satisfies regular expressions (regexes) specified in the chip.
 * the substrings are correctly extracted from the input string according to substring definitions.
 
-This is a Rust adaptation of the V1 JS/Python regex-to-circom work first done by [sampriti](https://github.com/sampritipanda/) and [yush\_g](https://twitter.com/yush\_g), rewritten and majorly expanded to a V2 by [aditya](https://github.com/Bisht13) and [sorasue](https://github.com/SoraSuegami/) in 2024 to use a simpler decomposed specification. You can generate your own regexes via the V1 compiler with our no-code tool at [zkregex.com](https://www.zkregex.com).
+This is a Rust adaptation of the V1 JS/Python regex-to-circom work first done by [sampriti](https://github.com/sampritipanda/) and [yush\_g](https://twitter.com/yush_g), rewritten and majorly expanded to a V2 by [aditya](https://github.com/Bisht13) and [sorasue](https://github.com/SoraSuegami/) in 2024 to use a simpler decomposed specification. You can generate your own regexes via the V1 compiler with our no-code tool at [zkregex.com](https://www.zkregex.com).
 
 In addition to the original work, this library also supports the following features:
 

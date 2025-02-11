@@ -1,5 +1,7 @@
 # Account Recovery
 
+ZK EMAIL DOCS HAVE MOVED TO [docs.zk.email](https://docs.zk.email). THE FOLLOWING DOCS ARE OUTDATED.
+
 Account recovery allows users to regain access to their Ethereum smart wallets using their email addresses. This system leverages ZK Email technology to verify email replies and trigger account recovery processes, all while maintaining high levels of security and privacy.
 
 Our Account Recovery system is compatible with both [ERC-4337](https://www.erc4337.io/) and [ERC-7579](https://erc7579.com/) standards, making it versatile for various smart wallet implementations.

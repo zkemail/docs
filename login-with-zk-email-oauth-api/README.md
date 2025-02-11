@@ -1,5 +1,7 @@
 # Login with ZK Email: OAuth API
 
+## ZK EMAIL DOCS HAVE MOVED TO [docs.zk.email](https://docs.zk.email). THE FOLLOWING DOCS ARE OUTDATED.
+
 ## ZK Email Oauth SDK Documentation
 
 ### Overview

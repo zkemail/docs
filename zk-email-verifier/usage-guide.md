@@ -1,5 +1,9 @@
 # Usage Guide
 
+### ZK EMAIL DOCS HAVE MOVED TO [docs.zk.email](https://docs.zk.email). THE FOLLOWING DOCS ARE OUTDATED.
+
+
+
 This guide provides a step-by-step walkthrough on how to use the ZK Email Verifier. It covers the process from converting your email to regex to creating your zero-knowledge proof for email verification. The guide assumes you have already installed the necessary packages as outlined in the Installation Guide. If you haven't done so, please refer to the [Installation Guide](installation.md) first.
 
 For an easy setup, we suggest utilizing [zkrepl](https://zkrepl.dev), a playground for compiling and testing your circuits in the early stages of development. Additionally, explore our [Proof of Twitter guide](https://prove.email/blog/twitter) for a practical demonstration on how to leverage our SDKs to construct your own circuits.

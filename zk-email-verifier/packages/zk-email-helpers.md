@@ -7,6 +7,8 @@ description: >-
 
 # zk-email/helpers
 
+### ZK EMAIL DOCS HAVE MOVED TO [docs.zk.email](https://docs.zk.email/zk-email-verifier/packages/zk-email-helpers). THE FOLLOWING DOCS ARE OUTDATED.
+
 ### Installation
 
 ```

@@ -1,6 +1,6 @@
 # Getting Started
 
-
+### ZK EMAIL DOCS HAVE MOVED TO [docs.zk.email](https://docs.zk.email). THE FOLLOWING DOCS ARE OUTDATED.
 
 The following steps are for developers to implement account recovery using ether-email-auth. Note that this is the workflow for custom smart contracts -- if your wallet is 7579 compatible, you can simply install our 7579 module directly.
 
@@ -24,7 +24,7 @@ foundryup -v nightly-cafc2606a2187a42b236df4aa65f4e8cdfcea970
 git clone https://github.com/zkemail/ether-email-auth.git
 ```
 
-**At the moment, please use the **<mark style="color:red;">**feat/docs-updates**</mark>** branch.**
+**At the moment, please use the&#x20;**<mark style="color:red;">**feat/docs-updates**</mark>**&#x20;branch.**
 
 ### Set up
 

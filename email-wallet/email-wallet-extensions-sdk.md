@@ -1,5 +1,7 @@
 # Email Wallet Extensions SDK
 
+ZK EMAIL DOCS HAVE MOVED TO [docs.zk.email](https://docs.zk.email). THE FOLLOWING DOCS ARE OUTDATED.
+
 The [Email Wallet SDK](https://github.com/zkemail/email-wallet-sdk) comprises smart contracts that enhance an email wallet's functionality. This SDK enables the creation of custom extensions that can interact with any smart contracts. It supports operations like token swapping via Uniswap, NFT transfer from the email wallet, and more. Third-party developers can build new functionality of email wallet using our SDK for extensions.
 
 ## Setup

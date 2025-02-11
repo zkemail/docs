@@ -1,5 +1,7 @@
 # Running the Example
 
+ZK EMAIL DOCS HAVE MOVED TO [docs.zk.email](https://docs.zk.email). THE FOLLOWING DOCS ARE OUTDATED.
+
 This guide will help to run the example project to test out the generated circuit.
 
 ### Getting started

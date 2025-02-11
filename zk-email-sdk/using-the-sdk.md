@@ -2,6 +2,8 @@
 
 > NOTE: As the SDK is still in development, the APIs might change drastically.
 
+ZK EMAIL DOCS HAVE MOVED TO [docs.zk.email](https://docs.zk.email). THE FOLLOWING DOCS ARE OUTDATED.
+
 ### Getting started
 
 **Google Client API key** You will need a Google Oauth token if you want users to be able to directly query emails from their inbox. Go to Google Cloud's dashboard to enable the Gmail API. \

@@ -1,5 +1,7 @@
 # API Documentation
 
+## ZK EMAIL DOCS HAVE MOVED TO [docs.zk.email](https://docs.zk.email). THE FOLLOWING DOCS ARE OUTDATED.
+
 ## Relayer API Documentation
 
 ### Environment Setup

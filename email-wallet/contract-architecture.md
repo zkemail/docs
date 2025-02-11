@@ -4,6 +4,8 @@ description: Contract architecture thats used in Email Wallet
 
 # Contract Architecture
 
+### ZK EMAIL DOCS HAVE MOVED TO [docs.zk.email](https://docs.zk.email). THE FOLLOWING DOCS ARE OUTDATED.
+
 ### **Core**
 
 * `EmailWalletCore.sol` - The main contract that implements functions like `handleEmailOp`. To keep the contract simple, we have split other functionalities to many "handlers".
